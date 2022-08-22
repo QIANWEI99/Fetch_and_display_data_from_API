@@ -1,12 +1,10 @@
-import { Box , Grid, Wrap, WrapItem } from '@chakra-ui/react';
+import { Box , Grid} from '@chakra-ui/react';
   
 const UniList = ({ unis }) => {
     return (
-        
         <Grid 
         templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)','repeat(3, 1fr)','repeat(4, 1fr)','repeat(5, 1fr)']} 
-        gap={6}
-        >
+        gap={6}>
         {
             unis.map(uni => (
                 <Box key={uni.domains} 
