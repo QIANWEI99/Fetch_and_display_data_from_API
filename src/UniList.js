@@ -21,7 +21,6 @@ const UniList = ({ unis }) => {
                     <p>Country: {uni.country}</p>
                     <p>Webpages: {uni.web_pages}</p>
                     <p>Name: {uni.name}</p>
-                    <p>State province: {uni.state_province}</p>
                 </Box>
             ))
         }
